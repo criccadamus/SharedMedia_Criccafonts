@@ -83,6 +83,7 @@ jobs:
           name: SharedMedia_Criccafonts
           path: .release/*.zip
           if-no-files-found: error
+          include-hidden-files: true
 
       # Publish every flavor in a single release event. Wago's webhook reads
       # the assets when the release is published, so they must all be present
