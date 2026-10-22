@@ -2,7 +2,9 @@
 ## Title: SharedMedia_Criccafonts
 ## Version: @project-version@
 ## Author: criccadamus
-## Notes: Adds the Pretendard and Google Sans Code font families to addons that use LibSharedMedia.
+## Notes: Adds a curated list of fonts addons that use LibSharedMedia.
+## Notes-esES: Añade una lista personalizada de fuentes para los addons que usan LibSharedMedia.
+## Notes-esMX: Añade una lista personalizada de fuentes para los addons que usan LibSharedMedia.
 ## X-License: MIT
 ## X-Category: Miscellaneous
 ## X-Wago-ID: O67bWjN3
