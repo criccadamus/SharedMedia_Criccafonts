@@ -1,0 +1,16 @@
+## Interface: 11508, 11507, 20505, 20506, 30405, 38001, 40402, 50503, 50504, 120100, 120005, 120107, 16001
+## Title: SharedMedia_Criccafonts
+## Version: @project-version@
+## Author: criccadamus
+## Notes: Adds the Pretendard and Google Sans Code font families to addons that use LibSharedMedia.
+## X-License: MIT
+## X-Category: Miscellaneous
+## X-Website: https://github.com/criccadamus/SharedMedia_Criccafonts
+## OptionalDeps: LibSharedMedia-3.0
+## X-Embeds: LibSharedMedia-3.0
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+
+Core.lua
