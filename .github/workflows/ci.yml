@@ -105,3 +105,14 @@ jobs:
           else
             gh release create "$TAG" .release/*.zip --verify-tag --generate-notes
           fi
+
+      # CurseForge gets one build: the TOC Interface line lists every supported
+      # client, so a single archive covers all game versions there. Kept last
+      # so a CurseForge outage never blocks the GitHub/Wago release above.
+      - name: Upload to CurseForge
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: BigWigsMods/packager@master
+        with:
+          args: -r .release-curseforge
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
