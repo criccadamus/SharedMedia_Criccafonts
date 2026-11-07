@@ -7,6 +7,7 @@
 ## Notes-esMX: Añade una lista personalizada de fuentes para los addons que usan LibSharedMedia.
 ## X-License: MIT
 ## X-Category: Miscellaneous
+## X-Curse-Project-ID: 1785952
 ## X-Wago-ID: O67bWjN3
 ## X-Website: https://github.com/criccadamus/SharedMedia_Criccafonts
 ## OptionalDeps: LibSharedMedia-3.0
